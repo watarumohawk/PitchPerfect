@@ -26,6 +26,17 @@ class PlaySoundsViewController: UIViewController {
     var audioEngine: AVAudioEngine!
     var audioPlayerNode: AVAudioPlayerNode!
     var stopTimer: NSTimer!
+    var duration: NSTimeInterval!
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        print("PlaySoundViewController loaded")
+        setupAudio()
+    }
+    
+    override func viewWillAppear(animated: Bool) {
+        configureUI(.NotPlaying)
+    }
     
     enum ButtonType: Int { case Slow = 0, Fast, Chipmunk, Vader, Echo, Reverb}
     
@@ -45,7 +56,7 @@ class PlaySoundsViewController: UIViewController {
             playSound(pitch: -1000)
         case .Echo:
             playSound(echo: true)
-        case . Reverb:
+        case .Reverb:
             playSound(reverb: true)
         }
         
@@ -55,22 +66,9 @@ class PlaySoundsViewController: UIViewController {
     
     @IBAction func stopSoundForButton(sender: AnyObject) {
         print("Stop Audio Button Pressed")
+        stopAudio()
     }
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        print("PlaySoundViewController loaded")
-        setupAudio()
-    }
-    
-    override func viewWillAppear(animated: Bool) {
-     configureUI(.NotPlaying)
-    }
-    
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
+
 
     /*
     // MARK: - Navigation
