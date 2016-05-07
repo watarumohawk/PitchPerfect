@@ -47,7 +47,7 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="S7t-g8-b3h">
                                         <rect key="frame" x="0.0" y="357" width="560" height="179"/>
                                         <subviews>
-                                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jd6-bn-1pg" userLabel="StopRecordingButton">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jd6-bn-1pg" userLabel="StopRecordingButton">
                                                 <rect key="frame" x="0.0" y="0.0" width="560" height="179"/>
                                                 <state key="normal" image="stopButton"/>
                                                 <connections>
