@@ -7,7 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F22D20B31CD8AAF10089C93B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22D20B21CD8AAF10089C93B /* AppDelegate.swift */; };
+		472F1D2C9A1868094E45E3B0 /* Pods_PitchPerfectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38385F623BBF45FBD7E1295E /* Pods_PitchPerfectUITests.framework */; };
+		C1AD5E8DE94D77BA6B099790 /* Pods_PitchPerfect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8E707DA8DC47387D029B584 /* Pods_PitchPerfect.framework */; };
+		C54AE08AAB70CEF471AD1031 /* Pods_PitchPerfectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05A7061EA1B34E698BA838AB /* Pods_PitchPerfectTests.framework */; };
+		DE36C3E01D2B9FBE00C7506E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE36C3DF1D2B9FBE00C7506E /* AppDelegate.swift */; };
+		DE36C3E21D2BA45700C7506E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DE36C3E11D2BA45700C7506E /* GoogleService-Info.plist */; };
+		DE6E475C1CFC2B2C00303C93 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = DE6E475B1CFC2B2C00303C93 /* Podfile */; };
 		F22D20B81CD8AAF10089C93B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F22D20B61CD8AAF10089C93B /* Main.storyboard */; };
 		F22D20BA1CD8AAF10089C93B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F22D20B91CD8AAF10089C93B /* Assets.xcassets */; };
 		F22D20BD1CD8AAF10089C93B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F22D20BB1CD8AAF10089C93B /* LaunchScreen.storyboard */; };
@@ -36,8 +41,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		05A7061EA1B34E698BA838AB /* Pods_PitchPerfectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PitchPerfectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		208AA24C810D9BA9B14E014A /* Pods-PitchPerfectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PitchPerfectUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PitchPerfectUITests/Pods-PitchPerfectUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		264EAE02D011394E9577E021 /* Pods-PitchPerfectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PitchPerfectTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PitchPerfectTests/Pods-PitchPerfectTests.debug.xcconfig"; sourceTree = "<group>"; };
+		352179FB3BC39303F5396E10 /* Pods-PitchPerfectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PitchPerfectUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PitchPerfectUITests/Pods-PitchPerfectUITests.release.xcconfig"; sourceTree = "<group>"; };
+		38385F623BBF45FBD7E1295E /* Pods_PitchPerfectUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PitchPerfectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8725412730C89B8E8DE3A47 /* Pods-PitchPerfect.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PitchPerfect.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PitchPerfect/Pods-PitchPerfect.debug.xcconfig"; sourceTree = "<group>"; };
+		DE36C3DF1D2B9FBE00C7506E /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DE36C3E11D2BA45700C7506E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DE4205351D2CA31F00815ADF /* PitchPerfect-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PitchPerfect-Bridging-Header.h"; sourceTree = "<group>"; };
+		DE6E475B1CFC2B2C00303C93 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E8E707DA8DC47387D029B584 /* Pods_PitchPerfect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PitchPerfect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFA43369C24DDD6EAAFCCAFC /* Pods-PitchPerfect.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PitchPerfect.release.xcconfig"; path = "Pods/Target Support Files/Pods-PitchPerfect/Pods-PitchPerfect.release.xcconfig"; sourceTree = "<group>"; };
 		F22D20AF1CD8AAF10089C93B /* PitchPerfect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PitchPerfect.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F22D20B21CD8AAF10089C93B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F22D20B71CD8AAF10089C93B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F22D20B91CD8AAF10089C93B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F22D20BC1CD8AAF10089C93B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +67,7 @@
 		F22D20E41CD8CB190089C93B /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySoundsViewController.swift; sourceTree = "<group>"; };
 		F22D20E81CDB3AC60089C93B /* RecodSoundsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecodSoundsViewController.swift; sourceTree = "<group>"; };
 		F2585AF91CDB5CF500ACE465 /* PlaySoundsViewController+Audio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PlaySoundsViewController+Audio.swift"; sourceTree = "<group>"; };
+		F72B49A7BE1267916D01E5FC /* Pods-PitchPerfectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PitchPerfectTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PitchPerfectTests/Pods-PitchPerfectTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1AD5E8DE94D77BA6B099790 /* Pods_PitchPerfect.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C54AE08AAB70CEF471AD1031 /* Pods_PitchPerfectTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,19 +91,48 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				472F1D2C9A1868094E45E3B0 /* Pods_PitchPerfectUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		697772EDAB3BAAF9EFD39288 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E8E707DA8DC47387D029B584 /* Pods_PitchPerfect.framework */,
+				05A7061EA1B34E698BA838AB /* Pods_PitchPerfectTests.framework */,
+				38385F623BBF45FBD7E1295E /* Pods_PitchPerfectUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		882281CBD30C91EF5608A9FC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C8725412730C89B8E8DE3A47 /* Pods-PitchPerfect.debug.xcconfig */,
+				EFA43369C24DDD6EAAFCCAFC /* Pods-PitchPerfect.release.xcconfig */,
+				264EAE02D011394E9577E021 /* Pods-PitchPerfectTests.debug.xcconfig */,
+				F72B49A7BE1267916D01E5FC /* Pods-PitchPerfectTests.release.xcconfig */,
+				208AA24C810D9BA9B14E014A /* Pods-PitchPerfectUITests.debug.xcconfig */,
+				352179FB3BC39303F5396E10 /* Pods-PitchPerfectUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F22D20A61CD8AAF10089C93B = {
 			isa = PBXGroup;
 			children = (
+				DE4205351D2CA31F00815ADF /* PitchPerfect-Bridging-Header.h */,
+				DE36C3E11D2BA45700C7506E /* GoogleService-Info.plist */,
 				F22D20B11CD8AAF10089C93B /* PitchPerfect */,
 				F22D20C61CD8AAF20089C93B /* PitchPerfectTests */,
 				F22D20D11CD8AAF20089C93B /* PitchPerfectUITests */,
 				F22D20B01CD8AAF10089C93B /* Products */,
+				DE6E475B1CFC2B2C00303C93 /* Podfile */,
+				882281CBD30C91EF5608A9FC /* Pods */,
+				697772EDAB3BAAF9EFD39288 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +149,10 @@
 		F22D20B11CD8AAF10089C93B /* PitchPerfect */ = {
 			isa = PBXGroup;
 			children = (
+				DE36C3DF1D2B9FBE00C7506E /* AppDelegate.swift */,
 				F2585AF91CDB5CF500ACE465 /* PlaySoundsViewController+Audio.swift */,
 				F22D20E81CDB3AC60089C93B /* RecodSoundsViewController.swift */,
 				F22D20E41CD8CB190089C93B /* PlaySoundsViewController.swift */,
-				F22D20B21CD8AAF10089C93B /* AppDelegate.swift */,
 				F22D20B61CD8AAF10089C93B /* Main.storyboard */,
 				F22D20B91CD8AAF10089C93B /* Assets.xcassets */,
 				F22D20BB1CD8AAF10089C93B /* LaunchScreen.storyboard */,
@@ -138,9 +186,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F22D20D71CD8AAF20089C93B /* Build configuration list for PBXNativeTarget "PitchPerfect" */;
 			buildPhases = (
+				C3E21D653450AA44DD75E177 /* 📦 Check Pods Manifest.lock */,
 				F22D20AB1CD8AAF10089C93B /* Sources */,
 				F22D20AC1CD8AAF10089C93B /* Frameworks */,
 				F22D20AD1CD8AAF10089C93B /* Resources */,
+				1FAB76A13298ACD161547265 /* 📦 Embed Pods Frameworks */,
+				D67114AF55F163002CF6C777 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -155,9 +206,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F22D20DA1CD8AAF20089C93B /* Build configuration list for PBXNativeTarget "PitchPerfectTests" */;
 			buildPhases = (
+				D9F3A3DF29E2B570CDDE04EA /* 📦 Check Pods Manifest.lock */,
 				F22D20BF1CD8AAF20089C93B /* Sources */,
 				F22D20C01CD8AAF20089C93B /* Frameworks */,
 				F22D20C11CD8AAF20089C93B /* Resources */,
+				C7939C412CF4FE7AD4AA6456 /* 📦 Embed Pods Frameworks */,
+				248E4FE3E29F861049A36218 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -173,9 +227,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F22D20DD1CD8AAF20089C93B /* Build configuration list for PBXNativeTarget "PitchPerfectUITests" */;
 			buildPhases = (
+				3116DE4B9A5EEDF1970BB7AE /* 📦 Check Pods Manifest.lock */,
 				F22D20CA1CD8AAF20089C93B /* Sources */,
 				F22D20CB1CD8AAF20089C93B /* Frameworks */,
 				F22D20CC1CD8AAF20089C93B /* Resources */,
+				B8206354857377141B6D3E3F /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -237,6 +293,8 @@
 			files = (
 				F22D20BD1CD8AAF10089C93B /* LaunchScreen.storyboard in Resources */,
 				F22D20BA1CD8AAF10089C93B /* Assets.xcassets in Resources */,
+				DE36C3E21D2BA45700C7506E /* GoogleService-Info.plist in Resources */,
+				DE6E475C1CFC2B2C00303C93 /* Podfile in Resources */,
 				F22D20B81CD8AAF10089C93B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,14 +315,137 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1FAB76A13298ACD161547265 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PitchPerfect/Pods-PitchPerfect-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		248E4FE3E29F861049A36218 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PitchPerfectTests/Pods-PitchPerfectTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3116DE4B9A5EEDF1970BB7AE /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B8206354857377141B6D3E3F /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PitchPerfectUITests/Pods-PitchPerfectUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3E21D653450AA44DD75E177 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C7939C412CF4FE7AD4AA6456 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PitchPerfectTests/Pods-PitchPerfectTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D67114AF55F163002CF6C777 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PitchPerfect/Pods-PitchPerfect-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9F3A3DF29E2B570CDDE04EA /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F22D20AB1CD8AAF10089C93B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE36C3E01D2B9FBE00C7506E /* AppDelegate.swift in Sources */,
 				F22D20E51CD8CB190089C93B /* PlaySoundsViewController.swift in Sources */,
 				F2585AFA1CDB5CF500ACE465 /* PlaySoundsViewController+Audio.swift in Sources */,
-				F22D20B31CD8AAF10089C93B /* AppDelegate.swift in Sources */,
 				F22D20E91CDB3AC60089C93B /* RecodSoundsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -341,6 +522,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -387,6 +569,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -400,6 +583,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -407,31 +591,41 @@
 		};
 		F22D20D81CD8AAF20089C93B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8725412730C89B8E8DE3A47 /* Pods-PitchPerfect.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = PitchPerfect/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.watarusekiguchi.PitchPerfect;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PRODUC_NAME)/PitchPerfect-Bridging-Header.h";
 			};
 			name = Debug;
 		};
 		F22D20D91CD8AAF20089C93B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFA43369C24DDD6EAAFCCAFC /* Pods-PitchPerfect.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = PitchPerfect/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.watarusekiguchi.PitchPerfect;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PRODUC_NAME)/PitchPerfect-Bridging-Header.h";
 			};
 			name = Release;
 		};
 		F22D20DB1CD8AAF20089C93B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 264EAE02D011394E9577E021 /* Pods-PitchPerfectTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = PitchPerfectTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.watarusekiguchi.PitchPerfectTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -441,9 +635,11 @@
 		};
 		F22D20DC1CD8AAF20089C93B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F72B49A7BE1267916D01E5FC /* Pods-PitchPerfectTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = PitchPerfectTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.watarusekiguchi.PitchPerfectTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -453,8 +649,10 @@
 		};
 		F22D20DE1CD8AAF20089C93B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 208AA24C810D9BA9B14E014A /* Pods-PitchPerfectUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = PitchPerfectUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.watarusekiguchi.PitchPerfectUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -464,8 +662,10 @@
 		};
 		F22D20DF1CD8AAF20089C93B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 352179FB3BC39303F5396E10 /* Pods-PitchPerfectUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = PitchPerfectUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.watarusekiguchi.PitchPerfectUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";

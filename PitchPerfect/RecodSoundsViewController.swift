@@ -17,6 +17,19 @@ class RecordSoundsViewController: UIViewController, AVAudioRecorderDelegate {
     
     var audioRecorder:AVAudioRecorder!
     
+    override func viewWillAppear(animated: Bool) {
+        
+        super.viewWillAppear(true)
+        let name = "RecordScreen"
+        
+        let tracker = GAI.sharedInstance().defaultTracker
+        tracker.set(kGAIScreenName, value: name)
+        
+        let builder = GAIDictionaryBuilder.createScreenView()
+        tracker.send(builder.build() as [NSObject : AnyObject])
+        
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         stopRecordingButton.enabled = false
@@ -81,6 +94,13 @@ class RecordSoundsViewController: UIViewController, AVAudioRecorderDelegate {
         recordButton.enabled = !recording
         stopRecordingButton.enabled = recording
         recordingLabel.text = recording ? "Recording in progress" : "Tap to Record"
+    }
+    
+    func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+        
+        // Override point for customization after application launch. Here you can out the code you want.
+//        FIRApp.configure()   
+        return true
     }
     
 }
