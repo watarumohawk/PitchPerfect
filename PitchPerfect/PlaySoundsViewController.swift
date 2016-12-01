@@ -9,6 +9,7 @@
 import UIKit
 import AVFoundation
 
+
 class PlaySoundsViewController: UIViewController {
 
     var recordedAudioURL: NSURL!
@@ -28,14 +29,33 @@ class PlaySoundsViewController: UIViewController {
     var stopTimer: NSTimer!
     var duration: NSTimeInterval!
     
+    var dataLayer: TAGDataLayer = TAGManager.instance().dataLayer
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         print("PlaySoundViewController loaded")
+        
+        dataLayer.push(["event": "OpenScreen", "screenName": "PlayScreen1"])
+        
         setupAudio()
     }
     
     override func viewWillAppear(animated: Bool) {
+        
+        super.viewWillAppear(true)
+        
         configureUI(.NotPlaying)
+        
+        let name = "PlayScreen"
+        
+        let tracker = GAI.sharedInstance().defaultTracker
+        // Demographics
+        tracker.allowIDFACollection = true
+    
+        tracker.set(kGAIScreenName, value: name)
+        let builder = GAIDictionaryBuilder.createScreenView()
+        tracker.send(builder.build() as [NSObject : AnyObject])
+        
     }
     
     enum ButtonType: Int { case Slow = 0, Fast, Chipmunk, Vader, Echo, Reverb}
@@ -66,8 +86,25 @@ class PlaySoundsViewController: UIViewController {
     
     @IBAction func stopSoundForButton(sender: AnyObject) {
         print("Stop Audio Button Pressed")
+        
+        let name = "PlayScreen 1"
+        
+        let tracker = GAI.sharedInstance().defaultTracker
+        
+        // Demographics
+        tracker.allowIDFACollection = true
+        
+        tracker.set(kGAIScreenName, value: name)
+        let builder = GAIDictionaryBuilder.createEventWithCategory("category", action: "action", label: "label", value: 200)
+        tracker.send(builder.build() as [NSObject : AnyObject])
+        
         stopAudio()
     }
 
 
 }
+
+
+
+
+

@@ -17,11 +17,19 @@ Copyright 2016 Google Inc.
 
 Copyright 2015 Google Inc.
 
+## GoogleIDFASupport
+
+Copyright 2015 Google Inc.
+
 ## GoogleInterchangeUtilities
 
 Copyright 2015 Google Inc.
 
 ## GoogleSymbolUtilities
+
+Copyright 2015 Google Inc.
+
+## GoogleTagManager
 
 Copyright 2015 Google Inc.
 

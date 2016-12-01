@@ -20,6 +20,7 @@ class RecordSoundsViewController: UIViewController, AVAudioRecorderDelegate {
     override func viewWillAppear(animated: Bool) {
         
         super.viewWillAppear(true)
+        
         let name = "RecordScreen"
         
         let tracker = GAI.sharedInstance().defaultTracker
@@ -27,6 +28,9 @@ class RecordSoundsViewController: UIViewController, AVAudioRecorderDelegate {
         
         let builder = GAIDictionaryBuilder.createScreenView()
         tracker.send(builder.build() as [NSObject : AnyObject])
+        
+        // Demographics
+        tracker.allowIDFACollection = true
         
     }
     

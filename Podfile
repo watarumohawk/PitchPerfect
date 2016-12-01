@@ -3,6 +3,9 @@
 
 
 pod 'Google/Analytics'
+pod 'GoogleIDFASupport'
+pod 'GoogleTagManager', '~> 3.15.0'
+
 
 target 'PitchPerfect' do
   # Comment this line if you're not using Swift and don't want to use dynamic frameworks
